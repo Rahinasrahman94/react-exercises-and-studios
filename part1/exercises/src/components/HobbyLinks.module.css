@@ -1,13 +1,13 @@
-.choresText {
+.hobbiesText {
   color: green;
   font-style: italic;
-  text-align: left;
+  text-align: right;
 }
 
-.choresHeading {
+.hobbiesHeading {
   color: red;
   font-family: italic;
   font-size: large;
   text-decoration: underline;
-  text-align: left;
+  text-align: right;
 }

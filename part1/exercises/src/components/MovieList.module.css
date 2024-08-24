@@ -1,7 +1,9 @@
 .movieText {
-   color: black;
+  color: blueviolet;
+  text-align: left;
 }
 
 .movieHeading {
-   color: black;
+  color: blue;
+  text-align: left;
 }
