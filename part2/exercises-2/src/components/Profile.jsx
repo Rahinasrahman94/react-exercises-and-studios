@@ -1,15 +1,22 @@
-import './styles.css';
-import Button from './Button';
+import "./styles.css";
+import Button from "./Button";
+import oceans from "./oceans.json";
 
-
-function Profile()
-{
-   return(
-      <>
-         <h3>Coming Soon! Profiles of Ocean creatures</h3>
-         <Button />
-      </>  
-   );
+function Profile() {
+  const listItem = oceans.map((ocean) => (
+    <div
+      key={ocean.id}
+      className={`${ocean.fishCheck === "true" ? "isAFish" : "profile"}`}
+    >
+      <img src={ocean.img} alt={ocean.name} className="img" />
+    </div>
+  ));
+  return (
+    <ul>
+      {listItem}
+      <Button />
+    </ul>
+  );
 }
 
 export default Profile;

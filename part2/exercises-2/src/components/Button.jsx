@@ -1,12 +1,11 @@
-import './styles.css';
+import "./styles.css";
 
 function Button() {
+  function onLearnMore() {
+    alert("splish splash");
+  }
 
-   return ( 
-         <button>
-            Learn More
-         </button>
-   );
+  return <button onClick={onLearnMore}>click!</button>;
 }
 
 export default Button;
