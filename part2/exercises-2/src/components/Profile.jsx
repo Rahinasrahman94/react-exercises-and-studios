@@ -8,7 +8,7 @@ function Profile() {
       key={ocean.id}
       className={`${ocean.fishCheck === "true" ? "isAFish" : "profile"}`}
     >
-      <img src={ocean.img} alt={ocean.name} className="img" />
+      <img src={ocean.image} alt={ocean.name} className="img" />
     </div>
   ));
   return (

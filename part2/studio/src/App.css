@@ -23,6 +23,27 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+#saveButton {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#saveButton:hover {
+  background-color: firebrick;
+  color: white;
+}
+#clickedButton {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
 
 .App-link {
   color: #61dafb;

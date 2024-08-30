@@ -1,9 +1,17 @@
-function ClickedButton() {
-  return;
-}
+import "./styling.css";
 
+function ClickedButton() {
+  function handleClick() {
+    alert("Pin has been saved");
+  }
+  return (
+    <button id="clickedButton" onClick={handleClick}>
+      Saved
+    </button>
+  );
+}
 export default ClickedButton;
 
 //create alert to inform user that the pin has been saved
-//create button 
+//create button
 //import styling and assign correct className clickedButton
